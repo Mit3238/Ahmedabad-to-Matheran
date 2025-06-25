@@ -1,0 +1,237 @@
+{
+  "title": "Ahmedabad to Matheran & Imagica Budget Trip (July 2025)",
+  "duration": "2-3 Days",
+  "best_for": [
+    "Monsoon lovers",
+    "Budget travelers",
+    "Adventure seekers"
+  ],
+  "scenarios": {
+    "Budget Trip": {
+      "transport": {
+        "ahd_mumbai": 280,
+        "mumbai_neral": 25,
+        "neral_matheran": 80,
+        "matheran_imagica": 2500,
+        "imagica_mumbai": 2250,
+        "mumbai_ahd": 280
+      },
+      "accommodation": {
+        "matheran_1night": 867,
+        "imagica_1night": 3000
+      },
+      "activities": {
+        "matheran_entry": 50,
+        "parking": 100,
+        "horse_riding": 1000,
+        "imagica_ticket": 999
+      },
+      "food": {
+        "matheran_food": 600,
+        "imagica_food": 400,
+        "train_meals": 300
+      },
+      "totals": {
+        "transport": 5415,
+        "accommodation": 3867,
+        "activities": 2149,
+        "food": 1300,
+        "grand_total": 12731
+      }
+    },
+    "Mid-Range Trip": {
+      "transport": {
+        "ahd_mumbai": 670,
+        "mumbai_neral": 90,
+        "neral_matheran": 75,
+        "matheran_imagica": 2500,
+        "imagica_mumbai": 2250,
+        "mumbai_ahd": 670
+      },
+      "accommodation": {
+        "matheran_1night": 1775,
+        "imagica_1night": 3000
+      },
+      "activities": {
+        "matheran_entry": 50,
+        "parking": 100,
+        "horse_riding": 2500,
+        "imagica_ticket": 1999
+      },
+      "food": {
+        "matheran_food": 1000,
+        "imagica_food": 600,
+        "train_meals": 300
+      },
+      "totals": {
+        "transport": 6255,
+        "accommodation": 4775,
+        "activities": 4649,
+        "food": 1900,
+        "grand_total": 17579
+      }
+    },
+    "Premium Trip": {
+      "transport": {
+        "ahd_mumbai": 1105,
+        "mumbai_neral": 90,
+        "neral_matheran": 300,
+        "matheran_imagica": 2500,
+        "imagica_mumbai": 2250,
+        "mumbai_ahd": 1105
+      },
+      "accommodation": {
+        "matheran_1night": 3069,
+        "imagica_package": 11499
+      },
+      "activities": {
+        "matheran_entry": 50,
+        "parking": 100,
+        "horse_riding": 2500,
+        "porter": 200
+      },
+      "food": {
+        "matheran_food": 1600,
+        "train_meals": 300
+      },
+      "totals": {
+        "transport": 7350,
+        "accommodation": 14568,
+        "activities": 2850,
+        "food": 1900,
+        "grand_total": 26668
+      }
+    }
+  },
+  "day_wise_plan": {
+    "Day 0": {
+      "title": "Departure from Ahmedabad",
+      "activities": [
+        "Board night train from Ahmedabad to Mumbai (recommended trains: Gujarat Mail 12902 at 22:50 or BVC BDTS SF EXP 12972 at 23:35)",
+        "Sleep in train (7-8 hours journey)"
+      ],
+      "costs": "Train fare as per chosen class",
+      "tips": [
+        "Book sleeper or 3AC for comfort",
+        "Carry snacks and water",
+        "Download entertainment for the journey"
+      ]
+    },
+    "Day 1": {
+      "title": "Mumbai to Matheran",
+      "activities": [
+        "Arrive Mumbai early morning (6:15-8:15 AM)",
+        "Take local train from Mumbai Central/Dadar to Neral (1.5-2 hours)",
+        "From Neral: Toy train or shared taxi to Matheran",
+        "Check-in to accommodation",
+        "Horse riding exploration (Panorama Point, Echo Point, Charlotte Lake)",
+        "Evening sunset at Sunset Point"
+      ],
+      "costs": "Local train + toy train/taxi + accommodation + horse riding + entry fee",
+      "tips": [
+        "Carry raincoats in July",
+        "Book horses in advance",
+        "Entry fee \u20b950 per person"
+      ]
+    },
+    "Day 2": {
+      "title": "Matheran Walking Tour & Travel to Imagica",
+      "activities": [
+        "Morning walking tour (Louisa Point, King George Point, One Tree Hill)",
+        "Visit local markets",
+        "Afternoon: Travel to Imagica (1.5-2 hours by taxi)",
+        "Check-in near Imagica",
+        "Evening: Relax or explore Imagica vicinity"
+      ],
+      "costs": "Taxi to Imagica + accommodation + meals",
+      "tips": [
+        "Start early for walking tour",
+        "Pack light for travel",
+        "Book Imagica tickets online"
+      ]
+    },
+    "Day 3": {
+      "title": "Imagica & Return to Ahmedabad",
+      "activities": [
+        "Full day at Imagica Theme Park",
+        "Enjoy rides, shows, and attractions",
+        "Evening: Travel to Mumbai",
+        "Night train back to Ahmedabad"
+      ],
+      "costs": "Imagica tickets + meals + taxi to Mumbai + return train",
+      "tips": [
+        "Use express tickets for popular rides",
+        "Carry water bottle",
+        "Book return train in advance"
+      ]
+    }
+  },
+  "alternative_activities": {
+    "Matheran": [
+      {
+        "activity": "Waterfall Rappelling at Dodhani Falls",
+        "cost": "\u20b91500-2000",
+        "duration": "3-4 hours",
+        "best_for": "Adventure enthusiasts"
+      },
+      {
+        "activity": "Charlotte Lake Picnic",
+        "cost": "\u20b9200-300",
+        "duration": "2-3 hours",
+        "best_for": "Families"
+      },
+      {
+        "activity": "Photography Walk",
+        "cost": "Free",
+        "duration": "2-4 hours",
+        "best_for": "Photography enthusiasts"
+      },
+      {
+        "activity": "Local Market Shopping",
+        "cost": "\u20b9500-1500",
+        "duration": "1-2 hours",
+        "best_for": "Souvenir hunters"
+      }
+    ],
+    "Imagica": [
+      {
+        "activity": "Water Park (additional)",
+        "cost": "\u20b9699-999",
+        "duration": "Half day",
+        "best_for": "Water sports lovers"
+      },
+      {
+        "activity": "Snow Park",
+        "cost": "\u20b9500-800",
+        "duration": "2-3 hours",
+        "best_for": "Unique experience"
+      },
+      {
+        "activity": "House of Stars",
+        "cost": "\u20b9300-500",
+        "duration": "1-2 hours",
+        "best_for": "Bollywood fans"
+      }
+    ]
+  },
+  "monsoon_tips": [
+    "Carry waterproof bags for electronics",
+    "Pack 2-3 sets of clothes including innerwear",
+    "Wear floaters or waterproof shoes",
+    "Don't rely on toy train - may not operate in heavy rain",
+    "Carry umbrella and raincoat",
+    "Book accommodation with pickup facility",
+    "Keep emergency contacts handy",
+    "Check weather forecast before travel"
+  ],
+  "money_saving_tips": [
+    "Travel on weekdays for lower rates",
+    "Book train tickets in advance",
+    "Use Happy Tuesday offers at Imagica",
+    "Eat at local eateries instead of hotels",
+    "Share taxi costs with other travelers",
+    "Carry own water and snacks",
+    "Book accommodation with meal packages",
+    "Use first class local trains for comfort at reasonable cost"
+  ]
+}

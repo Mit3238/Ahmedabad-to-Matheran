@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmedabad to Matheran & Imagica - Budget Trip July 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Ahmedabad to Matheran & Imagica</h1>
+                <p class="hero__subtitle">Budget Trip July 2025</p>
+                <div class="hero__highlights">
+                    <span class="highlight-badge">2-3 Days</span>
+                    <span class="highlight-badge">Monsoon Special</span>
+                    <span class="highlight-badge">Train Journey</span>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__label">Duration</span>
+                        <span class="stat__value">2-3 Days</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__label">Best Season</span>
+                        <span class="stat__value">Monsoon</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__label">Transport</span>
+                        <span class="stat__value">Train</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Budget Calculator Section -->
+    <section class="budget-section">
+        <div class="container">
+            <h2>Choose Your Budget</h2>
+            <p class="section-subtitle">Select your preferred spending tier to see detailed cost breakdown</p>
+            
+            <div class="budget-selector">
+                <div class="budget-option" data-budget="budget">
+                    <div class="budget-option__header">
+                        <h3>Budget Trip</h3>
+                        <span class="budget-price">₹12,731</span>
+                    </div>
+                    <p>Essential experiences with basic comfort</p>
+                </div>
+                <div class="budget-option active" data-budget="mid-range">
+                    <div class="budget-option__header">
+                        <h3>Mid-Range Trip</h3>
+                        <span class="budget-price">₹17,579</span>
+                    </div>
+                    <p>Balanced comfort with more activities</p>
+                </div>
+                <div class="budget-option" data-budget="premium">
+                    <div class="budget-option__header">
+                        <h3>Premium Trip</h3>
+                        <span class="budget-price">₹26,668</span>
+                    </div>
+                    <p>Luxury experience with premium stays</p>
+                </div>
+            </div>
+
+            <div class="budget-breakdown">
+                <h3>Cost Breakdown</h3>
+                <div class="cost-chart-container">
+                    <canvas id="costChart" width="300" height="300"></canvas>
+                </div>
+                <div class="cost-details">
+                    <div class="cost-item">
+                        <span class="cost-label">Transport</span>
+                        <span class="cost-value" id="transport-cost">₹6,255</span>
+                    </div>
+                    <div class="cost-item">
+                        <span class="cost-label">Accommodation</span>
+                        <span class="cost-value" id="accommodation-cost">₹4,775</span>
+                    </div>
+                    <div class="cost-item">
+                        <span class="cost-label">Activities</span>
+                        <span class="cost-value" id="activities-cost">₹4,649</span>
+                    </div>
+                    <div class="cost-item">
+                        <span class="cost-label">Food</span>
+                        <span class="cost-value" id="food-cost">₹1,900</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Itinerary Section -->
+    <section class="itinerary-section">
+        <div class="container">
+            <h2>Day-wise Itinerary</h2>
+            <p class="section-subtitle">Detailed plan for your monsoon adventure</p>
+            
+            <div class="timeline">
+                <div class="day-card" data-day="0">
+                    <div class="day-card__header">
+                        <div class="day-number">Day 0</div>
+                        <h3>Departure from Ahmedabad</h3>
+                        <button class="expand-btn">+</button>
+                    </div>
+                    <div class="day-card__content">
+                        <ul class="activities-list">
+                            <li>Board night train from Ahmedabad to Mumbai (recommended trains: Gujarat Mail 12902 at 22:50 or BVC BDTS SF EXP 12972 at 23:35)</li>
+                            <li>Sleep in train (7-8 hours journey)</li>
+                        </ul>
+                        <div class="day-tips">
+                            <h4>Pro Tips:</h4>
+                            <ul>
+                                <li>Book sleeper or 3AC for comfort</li>
+                                <li>Carry snacks and water</li>
+                                <li>Download entertainment for the journey</li>
+                            </ul>
+                        </div>
+                        <div class="day-cost">
+                            <span>Estimated Cost: Train fare as per chosen class</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="day-card" data-day="1">
+                    <div class="day-card__header">
+                        <div class="day-number">Day 1</div>
+                        <h3>Mumbai to Matheran</h3>
+                        <button class="expand-btn">+</button>
+                    </div>
+                    <div class="day-card__content">
+                        <ul class="activities-list">
+                            <li>Arrive Mumbai early morning (6:15-8:15 AM)</li>
+                            <li>Take local train from Mumbai Central/Dadar to Neral (1.5-2 hours)</li>
+                            <li>From Neral: Toy train or shared taxi to Matheran</li>
+                            <li>Check-in to accommodation</li>
+                            <li>Horse riding exploration (Panorama Point, Echo Point, Charlotte Lake)</li>
+                            <li>Evening sunset at Sunset Point</li>
+                        </ul>
+                        <div class="day-tips">
+                            <h4>Pro Tips:</h4>
+                            <ul>
+                                <li>Carry raincoats in July</li>
+                                <li>Book horses in advance</li>
+                                <li>Entry fee ₹50 per person</li>
+                            </ul>
+                        </div>
+                        <div class="day-cost">
+                            <span>Estimated Cost: Local train + toy train/taxi + accommodation + horse riding + entry fee</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="day-card" data-day="2">
+                    <div class="day-card__header">
+                        <div class="day-number">Day 2</div>
+                        <h3>Matheran Walking Tour & Travel to Imagica</h3>
+                        <button class="expand-btn">+</button>
+                    </div>
+                    <div class="day-card__content">
+                        <ul class="activities-list">
+                            <li>Morning walking tour (Louisa Point, King George Point, One Tree Hill)</li>
+                            <li>Visit local markets</li>
+                            <li>Afternoon: Travel to Imagica (1.5-2 hours by taxi)</li>
+                            <li>Check-in near Imagica</li>
+                            <li>Evening: Relax or explore Imagica vicinity</li>
+                        </ul>
+                        <div class="day-tips">
+                            <h4>Pro Tips:</h4>
+                            <ul>
+                                <li>Start early for walking tour</li>
+                                <li>Pack light for travel</li>
+                                <li>Book Imagica tickets online</li>
+                            </ul>
+                        </div>
+                        <div class="day-cost">
+                            <span>Estimated Cost: Taxi to Imagica + accommodation + meals</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="day-card" data-day="3">
+                    <div class="day-card__header">
+                        <div class="day-number">Day 3</div>
+                        <h3>Imagica & Return to Ahmedabad</h3>
+                        <button class="expand-btn">+</button>
+                    </div>
+                    <div class="day-card__content">
+                        <ul class="activities-list">
+                            <li>Full day at Imagica Theme Park</li>
+                            <li>Enjoy rides, shows, and attractions</li>
+                            <li>Evening: Travel to Mumbai</li>
+                            <li>Night train back to Ahmedabad</li>
+                        </ul>
+                        <div class="day-tips">
+                            <h4>Pro Tips:</h4>
+                            <ul>
+                                <li>Use express tickets for popular rides</li>
+                                <li>Carry water bottle</li>
+                                <li>Book return train in advance</li>
+                            </ul>
+                        </div>
+                        <div class="day-cost">
+                            <span>Estimated Cost: Imagica tickets + meals + taxi to Mumbai + return train</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternative Activities Section -->
+    <section class="activities-section">
+        <div class="container">
+            <h2>Alternative Activities</h2>
+            <p class="section-subtitle">Customize your experience with these additional options</p>
+            
+            <div class="activity-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="matheran">Matheran</button>
+                <button class="filter-btn" data-filter="imagica">Imagica</button>
+            </div>
+
+            <div class="activities-grid">
+                <div class="activity-card" data-location="matheran">
+                    <h3>Waterfall Rappelling at Dodhani Falls</h3>
+                    <div class="activity-meta">
+                        <span class="activity-cost">₹1500-2000</span>
+                        <span class="activity-duration">3-4 hours</span>
+                    </div>
+                    <p class="activity-best-for">Best for: Adventure enthusiasts</p>
+                </div>
+                
+                <div class="activity-card" data-location="matheran">
+                    <h3>Charlotte Lake Picnic</h3>
+                    <div class="activity-meta">
+                        <span class="activity-cost">₹200-300</span>
+                        <span class="activity-duration">2-3 hours</span>
+                    </div>
+                    <p class="activity-best-for">Best for: Families</p>
+                </div>
+                
+                <div class="activity-card" data-location="matheran">
+                    <h3>Photography Walk</h3>
+                    <div class="activity-meta">
+                        <span class="activity-cost">Free</span>
+                        <span class="activity-duration">2-4 hours</span>
+                    </div>
+                    <p class="activity-best-for">Best for: Photography enthusiasts</p>
+                </div>
+                
+                <div class="activity-card" data-location="matheran">
+                    <h3>Local Market Shopping</h3>
+                    <div class="activity-meta">
+                        <span class="activity-cost">₹500-1500</span>
+                        <span class="activity-duration">1-2 hours</span>
+                    </div>
+                    <p class="activity-best-for">Best for: Souvenir hunters</p>
+                </div>
+                
+                <div class="activity-card" data-location="imagica">
+                    <h3>Water Park (additional)</h3>
+                    <div class="activity-meta">
+                        <span class="activity-cost">₹699-999</span>
+                        <span class="activity-duration">Half day</span>
+                    </div>
+                    <p class="activity-best-for">Best for: Water sports lovers</p>
+                </div>
+                
+                <div class="activity-card" data-location="imagica">
+                    <h3>Snow Park</h3>
+                    <div class="activity-meta">
+                        <span class="activity-cost">₹500-800</span>
+                        <span class="activity-duration">2-3 hours</span>
+                    </div>
+                    <p class="activity-best-for">Best for: Unique experience</p>
+                </div>
+                
+                <div class="activity-card" data-location="imagica">
+                    <h3>House of Stars</h3>
+                    <div class="activity-meta">
+                        <span class="activity-cost">₹300-500</span>
+                        <span class="activity-duration">1-2 hours</span>
+                    </div>
+                    <p class="activity-best-for">Best for: Bollywood fans</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transportation Section -->
+    <section class="transport-section">
+        <div class="container">
+            <h2>Transportation Details</h2>
+            <p class="section-subtitle">Train options and local transport guidance</p>
+            
+            <div class="transport-cards">
+                <div class="transport-card">
+                    <h3>Ahmedabad to Mumbai</h3>
+                    <div class="train-options">
+                        <div class="train-option">
+                            <div class="train-name">Gujarat Mail 12902</div>
+                            <div class="train-time">Departure: 22:50 | Arrival: 06:15+1</div>
+                            <div class="train-classes">SL: ₹280 | 3AC: ₹670 | 2AC: ₹1105</div>
+                        </div>
+                        <div class="train-option">
+                            <div class="train-name">BVC BDTS SF EXP 12972</div>
+                            <div class="train-time">Departure: 23:35 | Arrival: 08:15+1</div>
+                            <div class="train-classes">SL: ₹280 | 3AC: ₹670 | 2AC: ₹1105</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="transport-card">
+                    <h3>Mumbai to Neral</h3>
+                    <div class="local-info">
+                        <p><strong>Local Train:</strong> From Mumbai Central/Dadar to Neral</p>
+                        <p><strong>Duration:</strong> 1.5-2 hours</p>
+                        <p><strong>Cost:</strong> 2nd: ₹25 | 1st: ₹90</p>
+                        <p><strong>Frequency:</strong> Every 30-45 minutes</p>
+                    </div>
+                </div>
+                
+                <div class="transport-card">
+                    <h3>Neral to Matheran</h3>
+                    <div class="local-info">
+                        <p><strong>Toy Train:</strong> ₹80 (may not operate in heavy rain)</p>
+                        <p><strong>Shared Taxi:</strong> ₹75-300 per person</p>
+                        <p><strong>Duration:</strong> 20-30 minutes</p>
+                        <p><strong>Note:</strong> Private vehicles not allowed in Matheran</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Monsoon Preparation Section -->
+    <section class="monsoon-section">
+        <div class="container">
+            <h2>Monsoon Preparation</h2>
+            <p class="section-subtitle">Essential tips for July travel in Matheran</p>
+            
+            <div class="preparation-grid">
+                <div class="prep-card">
+                    <h3>Essential Items Checklist</h3>
+                    <div class="checklist">
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Waterproof bags for electronics
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            2-3 sets of clothes including innerwear
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Floaters or waterproof shoes
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Umbrella and raincoat
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Emergency contacts list
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            First aid kit
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Power bank and chargers
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Snacks and water bottles
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="prep-card">
+                    <h3>Weather-Specific Tips</h3>
+                    <ul>
+                        <li>Don't rely on toy train - may not operate in heavy rain</li>
+                        <li>Book accommodation with pickup facility</li>
+                        <li>Check weather forecast before travel</li>
+                        <li>Keep alternate plans for outdoor activities</li>
+                        <li>Carry extra plastic bags for wet clothes</li>
+                        <li>Use anti-fog spray for glasses</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Money Saving Tips Section -->
+    <section class="savings-section">
+        <div class="container">
+            <h2>Money Saving Tips</h2>
+            <p class="section-subtitle">Smart strategies to reduce your travel costs</p>
+            
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">📅</div>
+                    <h3>Timing</h3>
+                    <p>Travel on weekdays for lower rates and fewer crowds</p>
+                </div>
+                
+                <div class="tip-card">
+                    <div class="tip-icon">🚂</div>
+                    <h3>Advance Booking</h3>
+                    <p>Book train tickets in advance for better prices and availability</p>
+                </div>
+                
+                <div class="tip-card">
+                    <div class="tip-icon">🎟️</div>
+                    <h3>Happy Tuesday</h3>
+                    <p>Use Happy Tuesday offers at Imagica for discounted tickets</p>
+                </div>
+                
+                <div class="tip-card">
+                    <div class="tip-icon">🍽️</div>
+                    <h3>Local Dining</h3>
+                    <p>Eat at local eateries instead of hotel restaurants</p>
+                </div>
+                
+                <div class="tip-card">
+                    <div class="tip-icon">🚗</div>
+                    <h3>Shared Transport</h3>
+                    <p>Share taxi costs with other travelers to reduce expenses</p>
+                </div>
+                
+                <div class="tip-card">
+                    <div class="tip-icon">🎒</div>
+                    <h3>Pack Smart</h3>
+                    <p>Carry own water and snacks to avoid premium prices</p>
+                </div>
+                
+                <div class="tip-card">
+                    <div class="tip-icon">🏨</div>
+                    <h3>Meal Packages</h3>
+                    <p>Book accommodation with meal packages for better deals</p>
+                </div>
+                
+                <div class="tip-card">
+                    <div class="tip-icon">🚃</div>
+                    <h3>First Class Local</h3>
+                    <p>Use first class local trains for comfort at reasonable cost</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Navigation for Mobile -->
+    <nav class="bottom-nav">
+        <a href="#" class="nav-item" data-section="budget-section">
+            <span class="nav-icon">💰</span>
+            <span class="nav-label">Budget</span>
+        </a>
+        <a href="#" class="nav-item" data-section="itinerary-section">
+            <span class="nav-icon">📅</span>
+            <span class="nav-label">Itinerary</span>
+        </a>
+        <a href="#" class="nav-item" data-section="activities-section">
+            <span class="nav-icon">🎯</span>
+            <span class="nav-label">Activities</span>
+        </a>
+        <a href="#" class="nav-item" data-section="monsoon-section">
+            <span class="nav-icon">☔</span>
+            <span class="nav-label">Tips</span>
+        </a>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+</html>
